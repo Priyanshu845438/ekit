@@ -1,3 +1,4 @@
+
 package com.example.e_toolkit;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,122 +14,95 @@ import android.widget.Toast;
 
 public class Kissancenter extends AppCompatActivity {
 
-    Spinner spinnerkloc,spinnerkdial;
+    Spinner spinnerkloc, spinnerkdial;
     Button btnkhd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kissancenter);
 
-        spinnerkdial=(Spinner)findViewById(R.id.spinnerkdial);
-        spinnerkloc=(Spinner)findViewById(R.id.spinnerkloc);
-        btnkhd=(Button)findViewById(R.id.btnkhd);
+        spinnerkloc = findViewById(R.id.spinnerkloc);
+        spinnerkdial = findViewById(R.id.spinnerkdial);
+        btnkhd = findViewById(R.id.btnkhd);
+
+        spinnerkloc.setOnItemSelectedListener(new MyOnItemSelected());
+        spinnerkdial.setOnItemSelectedListener(new MyOnItemSelected());
 
         btnkhd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent k = new Intent((Intent.ACTION_DIAL));
-                k.setData(Uri.parse("tel:1800-180-1551"));
-                startActivity(k);
-                Toast.makeText(Kissancenter.this, "Verified", Toast.LENGTH_SHORT).show();
-
-
-
+                Intent intent = new Intent(Kissancenter.this, HomeActivity.class);
+                startActivity(intent);
             }
         });
-        spinnerkloc.setOnItemSelectedListener(new Kissancenter.MyOnItemSelected());
-        spinnerkdial.setOnItemSelectedListener(new Kissancenter.MyOnItemSelected());
     }
-    public class MyOnItemSelected implements AdapterView.OnItemSelectedListener{
+
+    public class MyOnItemSelected implements AdapterView.OnItemSelectedListener {
 
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             String a = parent.getItemAtPosition(position).toString();
 
-            switch (parent.getId()){
+            switch (parent.getId()) {
                 case R.id.spinnerkloc:
-                    if (a.equals("Kishan Agro Traders")  ){
+                    if (a.equals("Kishan Agro Traders")) {
                         Intent k = new Intent(Intent.ACTION_VIEW);
-                        k.setData(Uri.parse("geo:0,0?q=Kishan+Agro+Traders%2C+Baroda"));
-                        Intent i = Intent.createChooser(k,"Launch Maps");
+                        k.setData(Uri.parse("geo:0,0?q=Kishan+Agro+Traders"));
+                        Intent i = Intent.createChooser(k, "Launch Maps");
                         startActivity(i);
-
                     }
-                    if (a.equals("Unity Traders and Kisan Kendra")  ){
+                    if (a.equals("Kisan Grow Industries")) {
                         Intent k = new Intent(Intent.ACTION_VIEW);
-                        k.setData(Uri.parse("geo:0,0?q=Unity+Traders+and+Kisan+Kendra%2C+Baroda"));
-                        Intent i = Intent.createChooser(k,"Launch Maps");
+                        k.setData(Uri.parse("geo:0,0?q=Kisan+Grow+Industries"));
+                        Intent i = Intent.createChooser(k, "Launch Maps");
                         startActivity(i);
-
                     }
-                    if (a.equals("Kisan Grow Industries")  ){
+                    if (a.equals("KISANeSTORE")) {
                         Intent k = new Intent(Intent.ACTION_VIEW);
-                        k.setData(Uri.parse("geo:0,0?q=Kisan+Grow+Industries%2C+Baroda"));
-                        Intent i = Intent.createChooser(k,"Launch Maps");
+                        k.setData(Uri.parse("geo:0,0?q=KISANeSTORE"));
+                        Intent i = Intent.createChooser(k, "Launch Maps");
                         startActivity(i);
-
                     }
-                    if (a.equals("KISANeSTORE")  ){
+                    if (a.equals("Kisan Filters Pvt. Ltd")) {
                         Intent k = new Intent(Intent.ACTION_VIEW);
-                        k.setData(Uri.parse("geo:0,0?q=KISANeSTORE%2C+Baroda"));
-                        Intent i = Intent.createChooser(k,"Launch Maps");
+                        k.setData(Uri.parse("geo:0,0?q=Kisan+Filters+Pvt+Ltd"));
+                        Intent i = Intent.createChooser(k, "Launch Maps");
                         startActivity(i);
-
                     }
-                    if (a.equals("Kisan Filters Pvt. Ltd.")  ){
-                        Intent k = new Intent(Intent.ACTION_VIEW);
-                        k.setData(Uri.parse("geo:0,0?q=Kisan+Filters+Pvt.+Ltd.%2C+Baroda"));
-                        Intent i = Intent.createChooser(k,"Launch Maps");
-                        startActivity(i);
-
-                    }
-                    if (a.equals("Kishan Beej Bhandar")  ){
-                        Intent k = new Intent(Intent.ACTION_VIEW);
-                        k.setData(Uri.parse("geo:0,0?q=Kishan+Beej+Bhandar%2C+Baroda"));
-                        Intent i = Intent.createChooser(k,"Launch Maps");
-                        startActivity(i);
-
-                    }
-
-
-
+                    break;
 
                 case R.id.spinnerkdial:
-                    if (a.equals("Kishan Agro Traders")  ){
+                    if (a.equals("Kishan Agro Traders")) {
                         Intent k = new Intent((Intent.ACTION_DIAL));
-                        k.setData(Uri.parse("tel:098983 33634"));
+                        k.setData(Uri.parse("tel:09898333634"));
                         startActivity(k);
                         Toast.makeText(Kissancenter.this, "Verified", Toast.LENGTH_SHORT).show();
                     }
-                    if (a.equals("Kisan Grow Industries")  ){
+                    if (a.equals("Kisan Grow Industries")) {
                         Intent k = new Intent((Intent.ACTION_DIAL));
-                        k.setData(Uri.parse("tel:097264 90777"));
+                        k.setData(Uri.parse("tel:09726490777"));
                         startActivity(k);
                         Toast.makeText(Kissancenter.this, "Verified", Toast.LENGTH_SHORT).show();
                     }
-                    if (a.equals("KISANeSTORE")  ){
+                    if (a.equals("KISANeSTORE")) {
                         Intent k = new Intent((Intent.ACTION_DIAL));
-                        k.setData(Uri.parse("tel:098988 95488"));
+                        k.setData(Uri.parse("tel:09898895488"));
                         startActivity(k);
                         Toast.makeText(Kissancenter.this, "Verified", Toast.LENGTH_SHORT).show();
                     }
-                    if (a.equals("Kisan Filters Pvt. Ltd")  ){
+                    if (a.equals("Kisan Filters Pvt. Ltd")) {
                         Intent k = new Intent((Intent.ACTION_DIAL));
-                        k.setData(Uri.parse("tel:098985 76699"));
+                        k.setData(Uri.parse("tel:09898576699"));
                         startActivity(k);
                         Toast.makeText(Kissancenter.this, "Verified", Toast.LENGTH_SHORT).show();
                     }
-
-
                     break;
             }
-
-
         }
 
         @Override
         public void onNothingSelected(AdapterView<?> parent) {
-
         }
     }
 }

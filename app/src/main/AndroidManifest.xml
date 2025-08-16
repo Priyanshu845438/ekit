@@ -1,55 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:requestLegacyExternalStorage="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EToolKit"
-        android:usesCleartextTraffic="true">
-        <activity android:name=".RegisterUser"></activity>
-        <activity android:name=".Login_Page" />
-        <activity android:name=".WebViewTable" />
-        <activity android:name=".WebViewHospital" />
-        <activity android:name=".Contact" />
-        <activity android:name=".About" />
-        <activity android:name=".PlacesVisit" />
-        <activity android:name=".RailwayInquiry" />
-        <activity android:name=".BusInquiry" />
-        <activity android:name=".AidsHelpline" />
-        <activity android:name=".TrafficDepartment" />
-        <activity android:name=".ChildAbuse" />
-        <activity android:name=".AntiRagging" />
-        <activity android:name=".AntiCorruption" />
-        <activity android:name=".Ngo" />
-        <activity android:name=".FireDepartments" />
-        <activity android:name=".Kissancenter" />
-        <activity android:name=".Schools" />
-        <activity android:name=".Hospitals" />
-        <activity android:name=".WebviewPolicedept" />
-        <activity android:name=".PoliceDepts" />
+        tools:targetApi="31">
+
         <activity
-            android:name=".HomeActivity"
-            android:label="Home" />
-        <activity android:name=".MainActivity">
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".HomeActivity" android:exported="false" />
+        <activity android:name=".AntiCorruption" android:exported="false" />
+        <activity android:name=".AntiRagging" android:exported="false" />
+        <activity android:name=".Kissancenter" android:exported="false" />
+        <activity android:name=".About" android:exported="false" />
+        <activity android:name=".TrafficDepartment" android:exported="false" />
+        <activity android:name=".FireDepartments" android:exported="false" />
+        <activity android:name=".Hospitals" android:exported="false" />
+        <activity android:name=".PoliceDepts" android:exported="false" />
+        <activity android:name=".WebViewHospital" android:exported="false" />
+        <activity android:name=".WebViewTable" android:exported="false" />
+
     </application>
 
 </manifest>

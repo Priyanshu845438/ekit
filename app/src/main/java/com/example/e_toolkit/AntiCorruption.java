@@ -1,3 +1,4 @@
+
 package com.example.e_toolkit;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,16 +13,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class AntiCorruption extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anti_corruption);
-    }
-}
-
-public class AntiCorruption extends AppCompatActivity {
-    Button btnaclaw,btnacloc,btnacdial;
+    Button btnaclaw, btnacloc, btnacdial;
     DownloadManager manager;
 
     @Override
@@ -29,9 +21,9 @@ public class AntiCorruption extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anti_corruption);
 
-        btnacdial=(Button)findViewById(R.id.btnacdial);
-        btnaclaw=(Button)findViewById(R.id.btnaclaw);
-        btnacloc=(Button)findViewById(R.id.btnacloc);
+        btnacdial = findViewById(R.id.btnacdial);
+        btnaclaw = findViewById(R.id.btnaclaw);
+        btnacloc = findViewById(R.id.btnacloc);
 
         btnaclaw.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,17 +34,15 @@ public class AntiCorruption extends AppCompatActivity {
                 request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE);
                 long reference = manager.enqueue(request);
                 Toast.makeText(AntiCorruption.this, "Downloading Check Your Downloads", Toast.LENGTH_SHORT).show();
-
             }
         });
 
         btnacloc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent k = new Intent(Intent.ACTION_VIEW);
                 k.setData(Uri.parse("geo:0,0?q=Anti+Corruption+Bureau%2C+Baroda"));
-                Intent i = Intent.createChooser(k,"Launch Maps");
+                Intent i = Intent.createChooser(k, "Launch Maps");
                 startActivity(i);
             }
         });
@@ -64,9 +54,7 @@ public class AntiCorruption extends AppCompatActivity {
                 k.setData(Uri.parse("tel:02652415266"));
                 startActivity(k);
                 Toast.makeText(AntiCorruption.this, "Verified", Toast.LENGTH_SHORT).show();
-
             }
         });
     }
-
 }
