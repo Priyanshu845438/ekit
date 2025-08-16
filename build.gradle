@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        // jcenter() ← Remove this line
+    }
+    dependencies {
+        // your classpath dependencies here
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // jcenter() ← Remove this line
+    }
+}

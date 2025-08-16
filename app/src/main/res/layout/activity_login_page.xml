@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpap"
+    tools:context=".Login_Page">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="E-ToolKit"
+                android:textAlignment="center"
+                android:textColor="#162159"
+                android:textSize="50dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="90dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="Login Page"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="italic"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter Email Address"
+                android:id="@+id/edtlemail"
+                android:ems="10"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="24dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="60dp"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter Password"
+                android:id="@+id/edtlpassword"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="24dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="30dp"></EditText>
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:id="@+id/lprogressBar"
+                />
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:text="login"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:backgroundTint="#0ED689"
+                android:id="@+id/signin" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/register"
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="center"></TextView>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

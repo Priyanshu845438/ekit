@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpap"
+    tools:context=".Hospitals">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the Hospital to get the location and Dial up"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerhloc"
+        android:entries="@array/Hospital_loc"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the Hospital For Dial Up"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+
+        ></TextView>
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerhdial"
+        android:entries="@array/Hospital_dial"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginVertical="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="400dp"
+        android:text="First Aid Guide"
+        android:id="@+id/btndownload"></Button>
+
+</LinearLayout>

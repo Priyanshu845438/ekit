@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpap"
+    tools:context=".Ngo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the Ngo to get the location and Dial Up"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnernloc"
+        android:entries="@array/Ngo_loc"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the Ngo For Dial Up"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:visibility="gone"
+        android:textStyle="bold"
+
+        ></TextView>
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerndial"
+        android:entries="@array/Ngo_dial"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="350dp"
+        android:text="Women Helpline DialUp for Distress"
+        android:id="@+id/btnwdis"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Women Helpline DialUp for Domestic Abuse"
+        android:id="@+id/btnwab"></Button>
+
+</LinearLayout>

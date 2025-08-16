@@ -1,0 +1,481 @@
+<resources>
+    <string name="app_name">E-ToolKit</string>
+    <string-array name="Police_Stations">
+        <item>-Select-</item>
+        <item>Bapod Police Station</item>
+        <item>J P Road Police Station</item>
+        <item>Gotri Police Station</item>
+        <item>Raopura Police Station</item>
+        <item>Karelibaug Police Station</item>
+        <item>Gorwa Police Station</item>
+        <item>Navapura Police Station</item>
+        <item>City Police Station</item>
+        <item>Makarpura Police Station</item>
+        <item>Panigate Police Station</item>
+        <item>Laxmipura Police Station</item>
+        <item>Saiyajiganj Police Station</item>
+        <item>Sama Police Station</item>
+        <item>Police Bhavan</item>
+        <item>Harni Police Station</item>
+        <item>Samta Police Station</item>
+        <item>Wadi Police Station</item>
+        <item>Taluka Police Station</item>
+        <item>Sardar Estate Police Station</item>
+        <item>Manjalpur Police Station</item>
+        <item>Fatehgunj Police Station</item>
+        <item>Channi Police Station</item>
+        <item>Nandesari Police Station</item>
+        <item>Jawahar Nagar Police Station</item>
+        <item>Warasiya Police Station</item>
+
+
+    </string-array>
+    <string-array name="Dial_Police_Stations">
+        <item>-Select-</item>
+        <item>Immidiate Dial Up</item>
+        <item>Bapod Police Station.</item>
+        <item>J P Road Police Station.</item>
+        <item>Gotri Police Station.</item>
+        <item>Raopura Police Station.</item>
+        <item>Karelibaug Police Station.</item>
+        <item>Gorwa Police Station.</item>
+        <item>Navapura Police Station.</item>
+        <item>City Police Station.</item>
+        <item>Makarpura Police Station.</item>
+        <item>Panigate Police Station.</item>
+        <item>Laxmipura Police Station.</item>
+        <item>Saiyajiganj Police Station.</item>
+        <item>Sama Police Station.</item>
+        <item>Police Bhavan.</item>
+        <item>Harni Police Station.</item>
+        <item>Samta Police Station</item>
+        <item>Wadi Police Station</item>
+        <item>Manjalpur Police Station</item>
+        <item>Fatehgunj Police Station</item>
+        <item>Nandesari Police Station</item>
+        <item>Jawahar Nagar Police Station</item>
+
+
+    </string-array>
+    <string-array name="Schools_location">
+        <item>-Select-</item>
+        <item>Academic Heights Public School - (AHPS)</item>
+        <item>Akshar Center for Hearing Impaired Children Special School</item>
+        <item>Alembic Vidyalaya</item>
+        <item>Ambe School</item>
+        <item>American School of Baroda</item>
+        <item>Anand Vidya Vihar</item>
+        <item>Andh Kanya Vidhyalaya Lion Blind Girls School</item>
+        <item>Ashoka Hall Public School</item>
+        <item>Baby Pearl Play Center and KG School</item>
+        <item>Bachpan A Play School</item>
+        <item>Baroda High School</item>
+        <item>Bharatiya Vidya Bhavan V.M. Public School</item>
+        <item>Bharatiya Vidya Bhavan Vallabhram Mehta Public School</item>
+        <item>Billabong High International School</item>
+        <item>Bright School</item>
+        <item>Busy Bees Kinderland - Munjmahuda</item>
+        <item>Busy Bees Kinderland - Padra</item>
+        <item>Convent of Jesus and Mary Girls High School</item>
+        <item>Cygnus World School</item>
+        <item>D.R. Amin Memorial School</item>
+        <item>Delhi Public School- DPS Harni</item>
+        <item>Delhi Public School - DPS Vadodara</item>
+        <item>Disha Special School and Autism Centre</item>
+        <item>Dreamz Play School</item>
+        <item>DSC Public School</item>
+        <item>E-Campus One World Junior School</item>
+        <item>Elly Child Care</item>
+        <item>Eurokids - Gotri Road</item>
+        <item>Eurokids - Waghodia Road</item>
+        <item>Fairyland English and Gujarati Medium School</item>
+        <item>Fertilizernagar School</item>
+        <item>Global International School and College</item>
+        <item>Global Public School (English Medium)</item>
+        <item>Green Valley High School</item>
+        <item>Gujarat Public School</item>
+        <item>Gujarat Refinery English Medium School</item>
+        <item>H V Shroff Memorial High School</item>
+        <item>Hello Kids - Gorwa</item>
+        <item>Hello Kids - Highflyers</item>
+        <item>Himgira Vidhyalaya</item>
+        <item>Jai Ambe Vidyalaya</item>
+        <item>Jawahar Navodaya Vidyalaya - JNV Vadodara</item>
+        <item>JC Junior College</item>
+        <item>Jeevan Sadhna English Medium School</item>
+        <item>Kelavani English Medium School</item>
+        <item>Kendriya Vidyalaya - KV No.1</item>
+        <item>Kendriya Vidyalaya - KV No.2</item>
+        <item>Kensho Early Learning Centre</item>
+        <item>Kidzee - Waghodia Road</item>
+        <item>Ladharam High School</item>
+        <item>Maharani English Medium School</item>
+        <item>Mahedavia High School</item>
+        <item>Mar Gregorios Memorial School</item>
+        <item>Mauryan High School</item>
+        <item>Mayurhir Achievers Kinderland</item>
+        <item>Mira Kindergarten</item>
+        <item>Mira the Happy School</item>
+        <item>Nalanda International School</item>
+        <item>Navjeevan High School</item>
+        <item>Navpad Sarvajanik High School</item>
+        <item>Navrachana and Vidyani Pre-Primary</item>
+        <item>Navrachana International School</item>
+        <item>Parivar Vidyalaya</item>
+        <item>Podar International School</item>
+        <item>Podar Jumbo Kids - Gotri</item>
+        <item>Podar Jumbo Kids - Nizampura</item>
+        <item>Podar World School - Maneja</item>
+        <item>Rangoli Preschool - Dabhoi Road</item>
+        <item>Rangoli Preschool - Gotri</item>
+        <item>Rangoli Preschool - Sangam Centre</item>
+        <item>Roosevelt High School</item>
+        <item>Rosary High School</item>
+        <item>Roshan Memorial School</item>
+        <item>Sabari Vidyalaya</item>
+        <item>Sadhu Vaswani Vidhya Mandir</item>
+        <item>Saint Basil School</item>
+        <item>Sanskaar Play School - Sunpharma Road</item>
+        <item>Sapphire Global School</item>
+        <item>Sardar Vallabhbhai Vidhyalaya</item>
+        <item>Saurabh Vidyalaya</item>
+        <item>Serra International Pre-School - Alkapuri</item>
+        <item>Shaishav School</item>
+        <item>Shannen Kids</item>
+        <item>Shannen The World School - STWS</item>
+        <item>Shanti Juniors - Manjalpur</item>
+        <item>Shanti Juniors - Nizampura</item>
+        <item>Shanti Juniors - Sama</item>
+        <item>Shree Ambe Vidyalaya</item>
+        <item>Shree Ankur Vidhyalaya</item>
+        <item>Shree Ganesh Vidyalaya</item>
+        <item>Shree Jalaram Vidyalaya</item>
+        <item>Shree Narayana International School</item>
+        <item>Shree Pragati Vidyalaya</item>
+        <item>Shree R.M. Dave Gnanodaya Vidhyalaya</item>
+        <item>Shree Raghukul Vidyalay</item>
+        <item>Shreyas Samarpan Vidyalaya</item>
+        <item>Silver Oak School</item>
+        <item>Smt. Kusumben Kadakia Vidyalaya</item>
+        <item>SportyBeans</item>
+        <item>St. Kabir Indian International School</item>
+        <item>St. Kabir School</item>
+        <item>Stepping Stones Play School</item>
+        <item>Tejas Vidyalaya</item>
+        <item>Tender Feet Academy</item>
+        <item>The Bright School</item>
+        <item>The Concept School</item>
+        <item>The New Horizon School</item>
+        <item>The Tree House Play Group - Amrakunj</item>
+        <item>TIME Kids - New Kareli Baugh</item>
+        <item>Tree House High School</item>
+        <item>Unnati Vidyalaya</item>
+        <item>Urmi School</item>
+        <item>Vibgyor High School</item>
+        <item>Wowkids Bornehave (House of Kids)</item>
+        <item>Wowkids Learning Tree</item>
+        <item>Zenith School</item>
+
+    </string-array>
+    <string-array name="Schools_DialUp">
+        <item>-Select-</item>
+        <item>Academic Heights Public School - (AHPS)</item>
+        <item>Akshar Center for Hearing Impaired Children Special School</item>
+        <item>Alembic Vidyalaya</item>
+        <item>Ambe School</item>
+        <item>American School of Baroda</item>
+        <item>Anand Vidya Vihar</item>
+        <item>Andh Kanya Vidhyalaya Lion Blind Girls School</item>
+        <item>Ashoka Hall Public School</item>
+        <item>Baby Pearl Play Center and KG School</item>
+        <item>Bachpan A Play School</item>
+        <item>Baroda High School</item>
+        <item>Bharatiya Vidya Bhavan V.M. Public School</item>
+        <item>Bharatiya Vidya Bhavan Vallabhram Mehta Public School</item>
+        <item>Billabong High International School</item>
+        <item>Bright School</item>
+        <item>Busy Bees Kinderland - Munjmahuda</item>
+        <item>Busy Bees Kinderland - Padra</item>
+        <item>Convent of Jesus and Mary Girls High School</item>
+        <item>Cygnus World School</item>
+        <item>D.R. Amin Memorial School</item>
+        <item>Delhi Public School- DPS Harni</item>
+        <item>Delhi Public School - DPS Vadodara</item>
+        <item>Disha Special School and Autism Centre</item>
+        <item>Dreamz Play School</item>
+        <item>DSC Public School</item>
+        <item>E-Campus One World Junior School</item>
+        <item>Elly Child Care</item>
+        <item>Eurokids - Gotri Road</item>
+        <item>Eurokids - Waghodia Road</item>
+        <item>Fairyland English and Gujarati Medium School</item>
+        <item>Fertilizernagar School</item>
+        <item>Global International School and College</item>
+        <item>Global Public School (English Medium)</item>
+        <item>Green Valley High School</item>
+        <item>Gujarat Public School</item>
+        <item>Gujarat Refinery English Medium School</item>
+        <item>H V Shroff Memorial High School</item>
+        <item>Hello Kids - Gorwa</item>
+        <item>Hello Kids - Highflyers</item>
+        <item>Himgira Vidhyalaya</item>
+        <item>Jai Ambe Vidyalaya</item>
+        <item>Jawahar Navodaya Vidyalaya - JNV Vadodara</item>
+        <item>JC Junior College</item>
+        <item>Jeevan Sadhna English Medium School</item>
+        <item>Kelavani English Medium School</item>
+        <item>Kendriya Vidyalaya - KV No.1</item>
+        <item>Kendriya Vidyalaya - KV No.2</item>
+        <item>Kensho Early Learning Centre</item>
+        <item>Kidzee - Waghodia Road</item>
+        <item>Ladharam High School</item>
+        <item>Maharani English Medium School</item>
+        <item>Mahedavia High School</item>
+        <item>Mar Gregorios Memorial School</item>
+        <item>Mauryan High School</item>
+        <item>Mayurhir Achievers Kinderland</item>
+        <item>Mira Kindergarten</item>
+        <item>Mira the Happy School</item>
+        <item>Nalanda International School</item>
+        <item>Navjeevan High School</item>
+        <item>Navpad Sarvajanik High School</item>
+        <item>Navrachana and Vidyani Pre-Primary</item>
+        <item>Navrachana International School</item>
+        <item>Parivar Vidyalaya</item>
+        <item>Podar International School</item>
+        <item>Podar Jumbo Kids - Gotri</item>
+        <item>Podar Jumbo Kids - Nizampura</item>
+        <item>Podar World School - Maneja</item>
+        <item>Rangoli Preschool - Dabhoi Road</item>
+        <item>Rangoli Preschool - Gotri</item>
+        <item>Rangoli Preschool - Sangam Centre</item>
+        <item>Roosevelt High School</item>
+        <item>Rosary High School</item>
+        <item>Roshan Memorial School</item>
+        <item>Sabari Vidyalaya</item>
+        <item>Sadhu Vaswani Vidhya Mandir</item>
+        <item>Saint Basil School</item>
+        <item>Sanskaar Play School - Sunpharma Road</item>
+        <item>Sapphire Global School</item>
+        <item>Sardar Vallabhbhai Vidhyalaya</item>
+        <item>Saurabh Vidyalaya</item>
+        <item>Serra International Pre-School - Alkapuri</item>
+        <item>Shaishav School</item>
+        <item>Shannen Kids</item>
+        <item>Shannen The World School - STWS</item>
+        <item>Shanti Juniors - Manjalpur</item>
+        <item>Shanti Juniors - Nizampura</item>
+        <item>Shanti Juniors - Sama</item>
+        <item>Shree Ambe Vidyalaya</item>
+        <item>Shree Ankur Vidhyalaya</item>
+        <item>Shree Ganesh Vidyalaya</item>
+        <item>Shree Jalaram Vidyalaya</item>
+        <item>Shree Narayana International School</item>
+        <item>Shree Pragati Vidyalaya</item>
+        <item>Shree R.M. Dave Gnanodaya Vidhyalaya</item>
+        <item>Shree Raghukul Vidyalay</item>
+        <item>Shreyas Samarpan Vidyalaya</item>
+        <item>Silver Oak School</item>
+        <item>Smt. Kusumben Kadakia Vidyalaya</item>
+        <item>SportyBeans</item>
+        <item>St. Kabir Indian International School</item>
+        <item>St. Kabir School</item>
+        <item>Stepping Stones Play School</item>
+        <item>Tejas Vidyalaya</item>
+        <item>Tender Feet Academy</item>
+        <item>The Bright School</item>
+        <item>The Concept School</item>
+        <item>The New Horizon School</item>
+        <item>The Tree House Play Group - Amrakunj</item>
+        <item>TIME Kids - New Kareli Baugh</item>
+        <item>Tree House High School</item>
+        <item>Unnati Vidyalaya</item>
+        <item>Urmi School</item>
+        <item>Vibgyor High School</item>
+        <item>Wowkids Bornehave (House of Kids)</item>
+        <item>Wowkids Learning Tree</item>
+        <item>Zenith School</item>
+    </string-array>
+    <string-array name="Hospital_loc">
+        <item>- Select -</item>
+        <item>Bhailal Amin General Hospital</item>
+        <item>Eye-q Super Speciality Eye Hospitals Eye Care</item>
+        <item>Centre For Sight Eye Care</item>
+        <item>Baroda Heart Inst. And Heart Center</item>
+        <item>Deep Intensive And Critical Care</item>
+        <item>Gupta Hospital</item>
+        <item>Kamath Kidney And Eye Hospital</item>
+        <item>Manjalpur Hospital</item>
+        <item>Modi Clinic</item>
+        <item>Patanjaly Hospital</item>
+        <item>Rushab Nursing Home</item>
+        <item>Samarpan Hospital</item>
+        <item>Uday Clinic</item>
+        <item>Shubhechha Multi Speciality Hospital</item>
+        <item>Vraj Hospital</item>
+        <item>Navrang Hospital</item>
+        <item>Baps Shashtri Maharaj Hospital</item>
+        <item>Bhumi Hospital</item>
+        <item>Sunshine Global Hospitals -manjalpur</item>
+        <item>Indrapuri Hospital</item>
+        <item>Dwarkesh Hospital</item>
+        <item>Bina Clinic Eye Care Centre</item>
+        <item>Aashray Urology Institute</item>
+        <item>Satyam Hospital</item>
+        <item>Medical College - Anandpura</item>
+        <item>Smt. B.k.shah Medical Institute And Research Centre</item>
+        <item>Gmers Medical College And Hospital</item>
+        <item>Shree Vraj Hospital</item>
+    </string-array>
+    <string-array name="Hospital_dial">
+        <item>- Select -</item>
+        <item>Immidiate Dial UP</item>
+        <item>Bhailal Amin General Hospital</item>
+        <item>Eye-q Super Speciality Eye Hospitals Eye Care</item>
+        <item>Centre For Sight Eye Care</item>
+        <item>Baroda Heart Inst. And Heart Center</item>
+        <item>Deep Intensive And Critical Care</item>
+        <item>Gupta Hospital</item>
+        <item>Kamath Kidney And Eye Hospital</item>
+        <item>Manjalpur Hospital</item>
+        <item>Modi Clinic</item>
+        <item>Patanjaly Hospital</item>
+        <item>Rushab Nursing Home</item>
+        <item>Samarpan Hospital</item>
+        <item>Uday Clinic</item>
+        <item>Shubhechha Multi Speciality Hospital</item>
+        <item>Vraj Hospital</item>
+        <item>Navrang Hospital</item>
+        <item>Baps Shashtri Maharaj Hospital</item>
+        <item>Bhumi Hospital</item>
+        <item>Sunshine Global Hospitals -manjalpur</item>
+        <item>Indrapuri Hospital</item>
+        <item>Dwarkesh Hospital</item>
+        <item>Bina Clinic Eye Care Centre</item>
+        <item>Aashray Urology Institute</item>
+        <item>Satyam Hospital</item>
+        <item>Medical College - Anandpura</item>
+        <item>Smt. B.k.shah Medical Institute And Research Centre</item>
+        <item>Gmers Medical College And Hospital</item>
+        <item>Shree Vraj Hospital</item>
+    </string-array>
+    <string-array name="Fire_loc">
+        <item>- Select -</item>
+        <item>Dandia Bazar Fire Station And Control room</item>
+        <item>Wadiwadi Fire Station</item>
+        <item>Panigate Fire Station </item>
+        <item>G.I.D.C. Fire Station </item>
+        <item>Gajarawadi Fire Station </item>
+        <item>TP-13 - Chhani Fire Station </item>
+        <item>ERC fire Station - Darjipura</item>
+    </string-array>
+    <string-array name="Fire_dial">
+
+        <item>- Select -</item>
+        <item>Immidiate Dial UP</item>
+        <item>Dandia Bazar Fire Station And Control room</item>
+        <item>Wadiwadi Fire Station</item>
+        <item>Panigate Fire Station </item>
+        <item>G.I.D.C. Fire Station </item>
+        <item>Gajarawadi Fire Station </item>
+        <item>TP-13 - Chhani Fire Station </item>
+        <item>ERC fire Station - Darjipura</item>
+    </string-array>
+
+    <string-array name="Ngo_loc">
+        <item>- Select -</item>
+        <item>AADHARTRUST - NGO</item>
+        <item>Adivasi Samaj Seva Trust - NGO</item>
+        <item>APPLUS - NGO</item>
+        <item>Astitva Foundation - NGO</item>
+        <item>Aum Narmade Foundation - NGO</item>
+        <item>Baroda Amateurs Dramatic Trust - NGO</item>
+        <item>Bhagyodaya Yuva Vikas Mandal - NGO</item>
+        <item>Bhavin Charity Trust - NGO</item>
+        <item>Bhoolka Bhavan - NGO</item>
+        <item>Bhvina Education Trust - NGO</item>
+        <item>Centre For Environment Science And Community - NGO</item>
+        <item>Chaitali - NGO</item>
+        <item>Cosmo Foundation - NGO</item>
+        <item>Deepak Foundation - NGO</item>
+        <item>Divya Seva Trust - NGO</item>
+        <item>Dr Paramamitra Shastri Education And Charitable Trust</item>
+        <item>Faith Foundation Gujarat - NGO	</item>
+        <item>Gitanjali Education Trust - NGO</item>
+        <item>Greenlife Foundation - NGO</item>
+        <item>Gujarat State Exarmy Family Women Organisation - NGO</item>
+        <item>Indian Red Cross Society Vadodara District Branch - NGO</item>
+        <item>Jan Jagruti Gram Seva Faudetion Trust - NGO</item>
+        <item>Kisan Vikas Seva Mandal Raopura Vadodara - NGO</item>
+        <item>V Care Right And Duty Ngo - NGO	</item>
+        <item>Vaishali Mahila Mandal - NGO</item>
+        <item>Vrunda Charitable And Education Trust - NGO</item>
+        <item>Way To Unity Trust - NGO</item>
+        <item>Yug Abhiyaan Charitable Trust - NGO</item>
+        <item>Zankar Kala Kendra - NGO</item>
+
+
+    </string-array>
+    <string-array name="Ngo_dial">
+        <item>- Select -</item>
+        <item>AADHARTRUST - NGO</item>
+        <item>Adivasi Samaj Seva Trust - NGO</item>
+        <item>APPLUS - NGO</item>
+        <item>Astitva Foundation - NGO</item>
+        <item>Aum Narmade Foundation - NGO</item>
+        <item>Baroda Amateurs Dramatic Trust - NGO</item>
+        <item>Bhagyodaya Yuva Vikas Mandal - NGO</item>
+        <item>Bhavin Charity Trust - NGO</item>
+        <item>Bhoolka Bhavan - NGO</item>
+        <item>Bhvina Education Trust - NGO</item>
+        <item>Centre For Environment Science And Community - NGO</item>
+        <item>Chaitali - NGO	</item>
+        <item>Cosmo Foundation - NGO</item>
+        <item>Deepak Foundation - NGO</item>
+        <item>Divya Seva Trust - NGO</item>
+        <item>Dr Paramamitra Shastri Education And Charitable Trust</item>
+        <item>Faith Foundation Gujarat - NGO</item>
+        <item>Gitanjali Education Trust - NGO</item>
+        <item>Greenlife Foundation - NGO</item>
+        <item>Gujarat State Exarmy Family Women Organisation - NGO</item>
+        <item>Indian Red Cross Society Vadodara District Branch - NGO</item>
+        <item>Jan Jagruti Gram Seva Faudetion Trust - NGO</item>
+        <item>Kisan Vikas Seva Mandal Raopura Vadodara - NGO</item>
+        <item>V Care Right And Duty Ngo - NGO	</item>
+        <item>Vaishali Mahila Mandal - NGO</item>
+        <item>Vrunda Charitable And Education Trust - NGO</item>
+        <item>Way To Unity Trust - NGO</item>
+        <item>Yug Abhiyaan Charitable Trust - NGO</item>
+        <item>Zankar Kala Kendra - NGO</item>
+
+    </string-array>
+    <string-array name="Kissan_Centers_loc">
+        <item>-Select-</item>
+        <item>Kishan Agro Traders</item>
+        <item>Unity Traders and Kisan Kendra</item>
+        <item>Kisan Grow Industries</item>
+        <item>KISANeSTORE</item>
+        <item>Kisan Filters Pvt. Ltd.</item>
+        <item>Kishan Beej Bhandar</item>
+
+
+    </string-array>
+    <string-array name="Kissan_Centers_dial">
+        <item>-Select-</item>
+        <item>Kishan Agro Traders</item>
+        <item>Kisan Grow Industries</item>
+        <item>KISANeSTORE</item>
+        <item>Kisan Filters Pvt. Ltd.</item>
+
+
+    </string-array>
+    <string name="title_activity_web_view_railway">WebViewRailway</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

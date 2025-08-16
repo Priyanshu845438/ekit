@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "379204808443",
+    "project_id": "e-toolkit",
+    "storage_bucket": "e-toolkit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379204808443:android:30e9e44af675bbfd6c0a5e",
+        "android_client_info": {
+          "package_name": "com.example.e_toolkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379204808443-prjpcgcqqdthi8mqca7t1uku672dljrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8OJvsUoK5yOnIkRVMJ0ovia6FV6X4z0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379204808443-prjpcgcqqdthi8mqca7t1uku672dljrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
