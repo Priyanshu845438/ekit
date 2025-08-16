@@ -12,6 +12,15 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class AntiCorruption extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_anti_corruption);
+    }
+}
+
+public class AntiCorruption extends AppCompatActivity {
     Button btnaclaw,btnacloc,btnacdial;
     DownloadManager manager;
 

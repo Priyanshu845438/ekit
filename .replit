@@ -2,3 +2,19 @@ modules = ["java-graalvm22.3"]
 
 [nix]
 channel = "stable-25_05"
+
+[workflows]
+runButton = "Build Android Project"
+
+[[workflows.workflow]]
+name = "Build Android Project"
+author = 46487734
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "./gradlew clean"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "./gradlew assembleDebug"
