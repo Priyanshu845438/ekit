@@ -4,126 +4,144 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/unnamed"
-
     tools:context=".HomeActivity">
+
     <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/scrollView">
 
-
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical" >
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Departments"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/black"
-                android:textSize="40dp"
-                android:gravity="center"/>
+                android:textSize="28sp"
+                android:gravity="center"
+                android:layout_marginBottom="24dp" />
 
+            <!-- Police -->
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
                 android:id="@+id/btnpolice"
-                android:shadowColor="@color/black"
-                android:text="Police Stations In Baroda" />
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
+                android:text="Police Stations In Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Schools -->
+            <Button
                 android:id="@+id/btnschool"
-                android:shadowColor="@color/black"
-                android:text="Schools In Baroda" />
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
+                android:text="Schools In Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Hospitals -->
+            <Button
                 android:id="@+id/btnhospital"
-                android:shadowColor="@color/black"
-                android:text="Hospitals In Baroda"  />
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
+                android:text="Hospitals In Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- NGO -->
+            <Button
                 android:id="@+id/btnngo"
-                android:shadowColor="@color/black"
-                android:text="NGOs in baroda"  />
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
+                android:text="NGOs in Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Kissan Center -->
+            <Button
                 android:id="@+id/btnkissan"
-                android:shadowColor="@color/black"
-                android:text="kissan center in baroda"  />
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
+                android:text="Kissan Center in Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Fire -->
+            <Button
                 android:id="@+id/btnfire"
-                android:shadowColor="@color/black"
-                android:text="Fire Departments in baroda"  />
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
+                android:text="Fire Departments in Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Anti-Corruption -->
+            <Button
                 android:id="@+id/btnacd"
-                android:shadowColor="@color/black"
-                android:text="Anti Corruption dept in baroda" />
-
-
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
+                android:text="Anti-Corruption Dept in Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Traffic -->
+            <Button
                 android:id="@+id/btntd"
-                android:shadowColor="@color/black"
-                android:text="Traffic Department in baroda" />
-
-
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
+                android:text="Traffic Department in Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Anti Ragging Helplines -->
+            <Button
                 android:id="@+id/btnarh"
-                android:shadowColor="@color/black"
-                android:text="All Essential Helplines"  />
-            <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
-                android:id="@+id/btnplaces"
-                android:shadowColor="@color/black"
-                android:text="Places to visit in baroda" />
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="20dp"
-                android:id="@+id/btntable"
-                android:shadowColor="@color/black"
-                android:text="Railway TimeTable" />
+                android:text="All Essential Helplines"
+                android:layout_marginVertical="8dp" />
 
+            <!-- Places -->
+            <Button
+                android:id="@+id/btnplaces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Places to Visit in Baroda"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Railway Table -->
+            <Button
+                android:id="@+id/btntable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Railway TimeTable"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Periodic Table -->
+            <Button
+                android:id="@+id/btnpd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periodic Table"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Formula Dictionary -->
+            <Button
+                android:id="@+id/btnfd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formula Dictionary"
+                android:layout_marginVertical="8dp" />
+
+            <!-- Knowledge Center -->
+            <Button
+                android:id="@+id/btnkc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Knowledge Center"
+                android:layout_marginVertical="8dp" />
 
         </LinearLayout>
-
     </ScrollView>
-
-
 </LinearLayout>

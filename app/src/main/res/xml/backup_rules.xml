@@ -1,8 +1,3 @@
-
-<?xml version="1.0" encoding="utf-8"?>
 <full-backup-content>
-    <!-- TODO: Use <include> and <exclude> to control what is backed up.
-        <include domain="sharedpref" path="."/>
-        <exclude domain="sharedpref" path="device.xml"/>
-    -->
+    <!-- Add your backup include/exclude rules here -->
 </full-backup-content>

@@ -1,5 +1,4 @@
-
-pluginManagement {
+pluginManagement { // For plugin repositories
     repositories {
         google()
         mavenCentral()
@@ -7,12 +6,12 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) // This line enforces the rule
     repositories {
-        google()
-        mavenCentral()
+        google() // Add Google repository here for library dependencies
+        mavenCentral() // Add Maven Central here for library dependencies
+        // Add any other repositories your project needs for libraries (e.g., jcenter(), custom Maven repos)
     }
 }
-
 rootProject.name = "E-ToolKit"
-include ':app'
+include ':app' // Or whatever your modules are

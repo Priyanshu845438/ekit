@@ -1,27 +1,27 @@
-
 package com.example.e_toolkit;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity {
+
     Button btnpd, btnacd, btnarh, btntd, btnplaces, btntable, btnfd, btnhospital, btnkc;
+    Button btnpolice, btnschool, btnngo, btnkissan, btnfire;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        
+
+        // 🔹 Connect buttons from XML
         btnpd = findViewById(R.id.btnpd);
         btnacd = findViewById(R.id.btnacd);
         btnarh = findViewById(R.id.btnarh);
@@ -32,88 +32,40 @@ public class HomeActivity extends AppCompatActivity {
         btnhospital = findViewById(R.id.btnhospital);
         btnkc = findViewById(R.id.btnkc);
 
-        btnpd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, PoliceDepts.class);
-                startActivity(k);
-            }
-        });
-        
-        btnacd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, AntiCorruption.class);
-                startActivity(k);
-            }
-        });
-        
-        btnarh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, AntiRagging.class);
-                startActivity(k);
-            }
-        });
-        
-        btntd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, TrafficDepartment.class);
-                startActivity(k);
-            }
-        });
-        
-        btnplaces.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, WebViewHospital.class);
-                startActivity(k);
-            }
-        });
-        
-        btntable.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, WebViewTable.class);
-                startActivity(k);
-            }
-        });
-        
-        btnfd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, FireDepartments.class);
-                startActivity(k);
-            }
-        });
-        
-        btnhospital.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, Hospitals.class);
-                startActivity(k);
-            }
-        });
-        
-        btnkc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent k = new Intent(HomeActivity.this, Kissancenter.class);
-                startActivity(k);
-            }
-        });
+        btnpolice = findViewById(R.id.btnpolice);
+        btnschool = findViewById(R.id.btnschool);
+        btnngo = findViewById(R.id.btnngo);
+        btnkissan = findViewById(R.id.btnkissan);
+        btnfire = findViewById(R.id.btnfire);
+
+        // 🔹 Set click listeners
+        btnpd.setOnClickListener(v -> startActivity(new Intent(this, PeriodicTableActivity.class)));
+        btnacd.setOnClickListener(v -> startActivity(new Intent(this, AntiCorruption.class)));
+        btnarh.setOnClickListener(v -> startActivity(new Intent(this, AntiRagging.class)));
+        btntd.setOnClickListener(v -> startActivity(new Intent(this, TrafficDepartment.class)));
+        btnplaces.setOnClickListener(v -> startActivity(new Intent(this, PlacesActivity.class)));
+        btntable.setOnClickListener(v -> startActivity(new Intent(this, RailwayTableActivity.class)));
+        btnfd.setOnClickListener(v -> startActivity(new Intent(this, FormulaDictionary.class)));
+        btnhospital.setOnClickListener(v -> startActivity(new Intent(this, Hospitals.class)));
+        btnkc.setOnClickListener(v -> startActivity(new Intent(this, KnowledgeCenter.class)));
+
+        btnpolice.setOnClickListener(v -> startActivity(new Intent(this, PoliceDepts.class)));
+        btnschool.setOnClickListener(v -> startActivity(new Intent(this, SchoolsActivity.class)));
+        btnngo.setOnClickListener(v -> startActivity(new Intent(this, NGOActivity.class)));
+        btnkissan.setOnClickListener(v -> startActivity(new Intent(this, KissanCenter.class)));
+        btnfire.setOnClickListener(v -> startActivity(new Intent(this, FireDepartments.class)));
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
+        inflater.inflate(R.menu.menu, menu); // make sure res/menu/menu.xml exists
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        // Handle menu clicks here
         return super.onOptionsItemSelected(item);
     }
 }
